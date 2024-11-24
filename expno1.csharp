@@ -1,0 +1,30 @@
+//experiment no 1 
+// title :- program to swap two number using third variable in c++
+// objective :- To swap two numbers using third variable in c++
+// theory :- your own 
+// program 
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Input: Prompt user to enter two numbers
+        Console.Write("Enter the first number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter the second number: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine($"\nBefore swapping: num1 = {num1}, num2 = {num2}");
+
+        // Swap logic using a third variable
+        int temp = num1;
+        num1 = num2;
+        num2 = temp;
+
+        Console.WriteLine($"After swapping: num1 = {num1}, num2 = {num2}");
+    }
+}
+
+//cponclusion write your own 
